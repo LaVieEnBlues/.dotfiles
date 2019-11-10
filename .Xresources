@@ -1,0 +1,52 @@
+!! Color theme
+!#include ".config/themes/solarized_light.th"
+!#include ".config/themes/solarized_dark.th"
+!#include ".config/themes/baskerville_count.th"
+!#include ".config/themes/baskerville_eldorado.th"
+!#include ".config/themes/baskerville_farside.th"
+!#include ".config/themes/baskerville_woods.th"
+!#include ".config/themes/cloud.th"
+#include ".config/themes/codeschool_dark_custom.th"
+!#include ".config/themes/codeschool_dark.th"
+!#include ".config/themes/codeschool_light.th"
+!#include ".config/themes/darkocean.th"
+!#include ".config/themes/dawn.th"
+!#include ".config/themes/matrix.th"
+!#include ".config/themes/monotheme.th"
+!#include ".config/themes/vacuous.th"
+!#include ".config/themes/visibone.th"
+!#include ".config/themes/trim-yer-beard.th"
+!#include ".config/themes/erebus.th"
+!#include ".config/themes/euphrasia.th"
+!#include ".config/themes/dkeg_catch.th"
+!#include ".config/themes/dkeg_citystreets.th"
+!#include ".config/themes/dkeg_colorstar.th"
+!#include ".config/themes/dkeg_panels.th"
+!#include ".config/themes/dkeg_phoenix.th"
+!#include ".config/themes/dkeg_teva.th"
+!#include ".config/themes/dkeg_vwbug.th"
+
+!! vim colorscheme default
+
+st.termname:   st-256color
+st.shell:      /bin/bash
+st.opacity:    255
+
+st.font:       xft:Fixedsys Excelsior:style=Regular:size=12:antialias=false
+st.bold_font:  0
+st.cwscale:    0.8
+st.chscale:    1.0
+st.internalBorder : 55
+
+dwm.normbordercolor: #00ff00
+dwm.normbgcolor: #333351
+dwm.normfgcolor: #22a4ac
+dwm.selbordercolor: #22a4ac
+dwm.selbgcolor: #262634
+dwm.selfgcolor: #bbbbbb
+
+rofi.font: hack 10
+
+!*.font: xft:Fixedsys Excelsior:style=Regular:size=11:antialias=false
+!*.boldFont: xft:Fixedsys Excelsior:style=Regular:size=11:antialias=false
+!*.letterSpace: -3

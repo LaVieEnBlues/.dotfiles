@@ -1,0 +1,545 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/meam/
+	..
+1565121261
+'b
+	/home/meam/bin/
+	..
+1565121261
+'h
+	/home/meam/
+	..
+1565121261
+'j
+	/home/meam/.config/dwm_test/patch
+	dwm-autostart-20161205-bb3bd6f.diff
+1571828796
+'m
+	/home/meam/faks/ppr
+	main.cpp
+1571589399
+'z
+	/home/meam/.config/vifm
+	..
+1565121261
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/sys/class/sound/card0
+	device
+2
+d/sys/class/sound/card0/device
+	sound
+7
+d/sys/class/sound/card0/device/sound
+	card0
+1
+d/sys/class/sound/card0/device/sound/card0
+	controlC0
+1
+d/sys/class/sound/card0/device/sound/card0/controlC0
+	device
+1
+d/sys/class/sound/card0/device/sound/card0/controlC0/device
+	..
+0
+d/sys/class/sound/card0/device/sound/card0/controlC0
+	uevent
+5
+d/sys/class/sound/card0/device/sound/card0
+	controlC0
+1
+d/sys/class/sound/card0/device/sound
+	card0
+1
+d/sys/class/sound/card0/device
+	sound
+7
+d/sys/class/sound/card0
+	device
+2
+d/sys/class/sound
+	card0
+1
+d/sys/class
+	sound
+37
+d/sys
+	class
+3
+d/
+	home
+5
+d/home
+	meam
+2
+d/home/meam
+	.config
+4
+d/home/meam/.config
+	st
+24
+d/home/meam/.config/st
+	config.h
+13
+d/home/meam/.config
+	st
+24
+d/home/meam
+	.Xauthority
+29
+d/home
+	meam
+2
+d/
+	dev
+3
+d/dev
+	mapper
+12
+d/dev/mapper
+	..
+0
+d/dev
+	mapper
+12
+d/dev/mapper
+	control
+1
+d/dev
+	mapper
+12
+d/
+	etc
+4
+d/etc
+	ca-certificates
+9
+d/
+	srv
+15
+d/srv
+	..
+0
+d/
+	usr
+18
+d/usr
+	src
+9
+d/
+	sys
+16
+d/sys
+	devices
+5
+d/sys/devices
+	i915
+6
+d/sys
+	module
+10
+d/sys/module
+	thinkpad_acpi
+37
+d/sys/module/thinkpad_acpi
+	parameters
+4
+d/sys/module/thinkpad_acpi/parameters
+	volume_mode
+12
+d/sys/module/thinkpad_acpi
+	parameters
+4
+d/sys/module/thinkpad_acpi/parameters
+	fan_control
+5
+d/sys/module/thinkpad_acpi
+	drivers
+1
+d/sys/module
+	ledtrig_audio
+4
+d/sys/module/ledtrig_audio
+	sections
+3
+d/sys/module/ledtrig_audio/sections
+	..
+0
+d/sys/module/ledtrig_audio
+	holders
+1
+d/sys/module
+	fb_sys_fops
+4
+d/sys
+	module
+10
+d/
+	home
+5
+d/home/meam
+	mnt
+8
+d/home/meam/mnt
+	DCIM
+5
+d/home/meam/mnt/DCIM
+	Camera
+1
+d/home/meam/mnt/DCIM/Camera
+	20191027_153116.jpg
+37
+d/home/meam/mnt
+	..
+0
+d/home/meam
+	mnt
+8
+d/home/meam/mnt
+	Maturantski ples
+7
+d/home/meam/mnt/Maturantski ples
+	IMG_20170218_220530.jpg
+34
+d/home/meam/mnt
+	System Volume Information
+1
+d/home/meam
+	Downloads
+2
+d/home/meam/Downloads
+	FreeBSD-12.1-RELEASE-i386-memstick.img
+3
+d/home/meam
+	.programs
+14
+d/home/meam/.programs
+	yay
+1
+d/home/meam
+	software
+28
+d/home/meam/software
+	anaconda
+1
+d/home/meam
+	software
+28
+d/home/meam/software
+	ZBRISI_ANACONDA.txt
+2
+d/home/meam
+	.programs
+14
+d/home/meam/.programs
+	dwm
+1
+d/home/meam/.programs/dwm
+	.git
+1
+d/home/meam/.programs
+	st
+2
+d/home/meam/.programs/st
+	.git
+1
+d/home/meam/.programs/st/.git
+	branches
+1
+d/home/meam/.programs/st
+	.git
+1
+d/home/meam/.programs
+	st
+2
+d/home/meam
+	.config
+4
+d/home/meam/.config
+	st
+24
+d/home/meam
+	.programs
+14
+d/home/meam/.programs
+	dwm
+1
+d/home/meam/.programs/dwm
+	config.def.h.rej
+8
+d/home/meam/.programs
+	st
+2
+d/home/meam/.programs/st
+	patches
+2
+d/home/meam/.programs/st/patches
+	st-xresources-20190105-3be4cf1.diff
+5
+d/home/meam/.programs/st
+	win.h
+22
+d/home/meam/.programs
+	dwm
+1
+d/home/meam/.programs/dwm
+	transient.c
+22
+d/home/meam/.programs
+	dwm
+1
+d/home/meam
+	pics
+27
+d/home/meam/pics
+	screens
+1
+d/home/meam/pics/screens
+	1557061974.png
+1
+d/home/meam/pics
+	screens
+1
+d/home/meam
+	.scripts
+6
+d/home/meam/.scripts
+	JohnTheRipper
+1
+d/home/meam/.scripts/JohnTheRipper
+	..
+0
+d/home/meam/.scripts
+	vifmrun
+4
+d/home/meam
+	.scripts
+7
+d/home/meam/.scripts
+	vifmrun
+4
+d/home/meam
+	.config
+4
+d/home/meam/.config
+	yay
+26
+d
+
+# Right window history (oldest to newest):
+D/home/meam/.config
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:hi ( Win ) cterm=none
+:hi (Win) cterm=none
+:hi clear
+:hi (Directory) cterm=none
+:hi Win cterm=none
+:hi Directorycterm=none
+:hi Directory cterm=none
+:hi
+:mkcd peers
+:mkdir os
+:mkdir dn2
+:mkcd dn1
+:mkcd service
+:rmdir
+:!rmdir druga/
+:!mupdf DS-izpit-15-2-2018.pdf
+:mkdir vaja3
+:mkdir vaja4
+:mkcd ppr
+:mkdir spectrwm
+:mkdir dwm
+:mkdir st
+:!mkdir
+:cd
+:q
+
+# Search history (oldest to newest):
+/profile
+/Profile
+/\.conf
+/fon
+/poly
+/script
+/config
+/compt
+/term
+/termi
+/sess
+/power
+/ima
+/thinkp
+/audi
+/progr
+
+# Prompt history (oldest to newest):
+pnfig
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/meam/.local/share/vifm/Trash/000_.angular-config.json
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/home/meam/.local/share/vifm/Trash/000_vifm.log
+	/home/meam/vifm.log
+t/home/meam/.local/share/vifm/Trash/000_AstronautGame-Lecture01.zip
+	/home/meam/.config/fontconfig/fonts/AstronautGame-Lecture01.zip
+t/home/meam/.local/share/vifm/Trash/000_openings.zip
+	/home/meam/.config/fontconfig/fonts/openings.zip
+t/home/meam/.local/share/vifm/Trash/000_pt_games.zip
+	/home/meam/.config/fontconfig/fonts/pt_games.zip
+t/home/meam/.local/share/vifm/Trash/000_Postman
+	/home/meam/.config/Postman
+t/home/meam/.local/share/vifm/Trash/000_configstore
+	/home/meam/.config/configstore
+t/home/meam/.local/share/vifm/Trash/000_dconf
+	/home/meam/.config/dconf
+t/home/meam/.local/share/vifm/Trash/000_enchant
+	/home/meam/.config/enchant
+t/home/meam/.local/share/vifm/Trash/000_kitty
+	/home/meam/.config/kitty
+t/home/meam/.local/share/vifm/Trash/000_midori
+	/home/meam/.config/midori
+t/home/meam/.local/share/vifm/Trash/000_procps
+	/home/meam/.config/procps
+t/home/meam/.local/share/vifm/Trash/000_qutebrowser
+	/home/meam/.config/qutebrowser
+t/home/meam/.local/share/vifm/Trash/000_xfburn
+	/home/meam/.config/xfburn
+t/home/meam/.local/share/vifm/Trash/000_xfce4
+	/home/meam/.config/xfce4
+t/home/meam/.local/share/vifm/Trash/000_xfce_themes
+	/home/meam/.config/xfce_themes
+t/home/meam/.local/share/vifm/Trash/000_sxhkdrc
+	/home/meam/.config/sxhkd/sxhkdrc
+t/home/meam/.local/share/vifm/Trash/000_vlc
+	/home/meam/.config/vlc
+t/home/meam/.local/share/vifm/Trash/000_vimb
+	/home/meam/.config/vimb
+t/home/meam/.local/share/vifm/Trash/000_spectrwm
+	/home/meam/.config/spectrwm
+t/home/meam/.local/share/vifm/Trash/000_luakit
+	/home/meam/.config/luakit
+t/home/meam/.local/share/vifm/Trash/000_herbsluftwm
+	/home/meam/.config/herbsluftwm
+t/home/meam/.local/share/vifm/Trash/000_alacritty
+	/home/meam/.config/alacritty
+t/home/meam/.local/share/vifm/Trash/000_.ourico
+	/home/meam/.ourico
+t/home/meam/.local/share/vifm/Trash/000_.wmii
+	/home/meam/.wmii
+t/home/meam/.local/share/vifm/Trash/000_.xmonad
+	/home/meam/.xmonad
+t/home/meam/.local/share/vifm/Trash/000_.echinus
+	/home/meam/.echinus
+t/home/meam/.local/share/vifm/Trash/000_.dillo
+	/home/meam/.dillo
+t/home/meam/.local/share/vifm/Trash/000_.nmcli-history
+	/home/meam/.nmcli-history
+t/home/meam/.local/share/vifm/Trash/000_.mongorc.js
+	/home/meam/.mongorc.js
+t/home/meam/.local/share/vifm/Trash/000_.node_repl_history
+	/home/meam/.node_repl_history
+t/home/meam/.local/share/vifm/Trash/000_1
+	/home/meam/1
+t/home/meam/.local/share/vifm/Trash/000_.dbshell
+	/home/meam/.dbshell
+t/home/meam/.local/share/vifm/Trash/000_.npm
+	/home/meam/.npm
+t/home/meam/.local/share/vifm/Trash/000_st
+	/home/meam/.programs/st
+t/home/meam/.local/share/vifm/Trash/000_dwm-tilegap-6.2.diff
+	/home/meam/.config/dwm/patches/dwm-tilegap-6.2.diff
+t/home/meam/.local/share/vifm/Trash/000_dwm-vanitygaps-20190508-6.2.diff
+	/home/meam/.config/dwm/patches/dwm-vanitygaps-20190508-6.2.diff
+t/home/meam/.local/share/vifm/Trash/000_netsurf
+	/home/meam/.config/netsurf
+t/home/meam/.local/share/vifm/Trash/000_yay
+	/home/meam/.config/yay
+t/home/meam/.local/share/vifm/Trash/000_zathura
+	/home/meam/.config/zathura
+t/home/meam/.local/share/vifm/Trash/000_d-feet
+	/home/meam/.config/d-feet
+t/home/meam/.local/share/vifm/Trash/000_awesome
+	/home/meam/.config/awesome
+t/home/meam/.local/share/vifm/Trash/000_.urxvt
+	/home/meam/.urxvt
+t/home/meam/.local/share/vifm/Trash/000_Chicago95
+	/home/meam/Chicago95
+t/home/meam/.local/share/vifm/Trash/000_Neural network_files
+	/home/meam/Downloads/Neural network_files
+t/home/meam/.local/share/vifm/Trash/000_DCČD
+	/home/meam/Downloads/DCČD
+t/home/meam/.local/share/vifm/Trash/000_2003_cclass.pdf
+	/home/meam/Downloads/2003_cclass.pdf
+t/home/meam/.local/share/vifm/Trash/000_Neural network.html
+	/home/meam/Downloads/Neural network.html
+t/home/meam/.local/share/vifm/Trash/000_Scan2019-09-25_172113.pdf
+	/home/meam/Downloads/Scan2019-09-25_172113.pdf
+t/home/meam/.local/share/vifm/Trash/000_izpisek.pdf
+	/home/meam/Downloads/izpisek.pdf
+t/home/meam/.local/share/vifm/Trash/000_kitty.conf
+	/home/meam/Downloads/kitty.conf
+t/home/meam/.local/share/vifm/Trash/000_main.cpp
+	/home/meam/Downloads/main.cpp
+t/home/meam/.local/share/vifm/Trash/000_sago.zip
+	/home/meam/Downloads/sago.zip
+t/home/meam/.local/share/vifm/Trash/000_st-0.8.2.tar.gz
+	/home/meam/Downloads/st-0.8.2.tar.gz
+t/home/meam/.local/share/vifm/Trash/000_dwm-bar
+	/home/meam/.config/dwm-bar
+t/home/meam/.local/share/vifm/Trash/000_dwm_bar
+	/home/meam/.scripts/dwm_bar
+t/home/meam/.local/share/vifm/Trash/000_.git
+	/home/meam/.programs/st/.git
+t/home/meam/.local/share/vifm/Trash/000_config.def.h.rej
+	/home/meam/.programs/dwm/config.def.h.rej
+t/home/meam/.local/share/vifm/Trash/000_config.h.backup
+	/home/meam/.programs/dwm/config.h.backup
+t/home/meam/.local/share/vifm/Trash/000_dwm.c.rej
+	/home/meam/.programs/dwm/dwm.c.rej
+t/home/meam/.local/share/vifm/Trash/000_movestack.c.rej
+	/home/meam/.programs/dwm/movestack.c.rej
+t/home/meam/.local/share/vifm/Trash/000_JohnTheRipper
+	/home/meam/.scripts/JohnTheRipper
+t/home/meam/.local/share/vifm/Trash/000_nmtuirun
+	/home/meam/.scripts/nmtuirun
+t/home/meam/.local/share/vifm/Trash/001_timer.log
+	/home/meam/.scripts/timer.log
+t/home/meam/.local/share/vifm/Trash/000_xampp
+	/home/meam/.scripts/xampp
+t/home/meam/.local/share/vifm/Trash/000_.angular-config.json
+	/home/meam/.angular-config.json
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].1
+]F
+s0

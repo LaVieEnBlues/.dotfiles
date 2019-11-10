@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=dwm
+Comment=Start the dwm window manager
+Exec=dwm
+Type=Application
