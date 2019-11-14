@@ -5,6 +5,15 @@
 + st
 + dmenu
 
+## Fonts
+```
++ **Fixedsys Excelsior**
++ ProggySquareTT
++ Crisp
++ **CodingFontTobi**
++ PixelCarnageMono
+```
+
 ## Packages
 ### pacman
 ```
