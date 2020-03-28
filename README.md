@@ -17,7 +17,7 @@
 ## Packages
 ### pacman
 ```
-git lightdm rofi gvim xdg-user-dirs vifm feh pulseaudio xrandr neofetch maim unzip nm-connection-editor bluez blues-utils pandoc mupdf
+git lightdm rofi gvim xdg-user-dirs vifm xwallpaper pulseaudio xrandr neofetch maim unzip nm-connection-editor bluez blues-utils pandoc mupdf
 ```
 
 ### aur
