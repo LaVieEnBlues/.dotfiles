@@ -1,9 +1,7 @@
 [options]
-#allow_bold = true
+allow_bold = false
 #audible_bell = false
 #bold_is_bright = true
-#cell_height_scale = 1.0
-#cell_width_scale = 1.0
 #clickable_url = true
 #dynamic_title = true
 font = Fixedsys Excelsior 11
@@ -105,26 +103,52 @@ browser = xdg-open
 #color7  = #93a1a1
 #color15 = #fdf6e3
 
-foreground =  #bbbbbb
-foreground_bold = #bbbbbb
-background =  #232337
-cursor     =  #a09783
-color0     =  #262634
-color8     =  #333351
-color1     =  #22a4ac
-color9     =  #22a4ac
-color2     =  #10cf29
-color10    =  #10cf29
-color3     =  #e19825
-color11    =  #e19825
-color4     =  #109898
-color12    =  #109898
-color5     =  #ba333a
-color13    =  #ba333a
-color6     =  #ca262e
-color14    =  #ca262e
-color7     =  #948b80
-color15    =  #948b80
+# gruvbox light
+foreground  = #3f3f3e
+foreground_bold= #3f3f3e
+background  = #b8bdc0
+cursor      = #3f3f3e
+color0      = #e2e1dd
+color8      = #928374
+color1      = #cc241d
+color9      = #9d0006
+color2      = #3762c3
+color10     = #0a366a
+color3      = #d79921
+color11     = #b57614
+color4      = #4094ae
+color12     = #235889
+color5      = #b16286
+color13     = #8f3f71
+color6      = #689d6a
+color14     = #427b58
+color7      = #7c6f64
+color15     = #3c3836
+
+
+# codeschool custom dark
+#foreground =  #bbbbbb
+#foreground_bold = #bbbbbb
+#background =  #232337
+#cursor     =  #a09783
+#color0     =  #262634
+#color8     =  #333351
+#color1     =  #22a4ac
+#color9     =  #22a4ac
+#color2     =  #10cf29
+#color10    =  #10cf29
+#color3     =  #e19825
+#color11    =  #e19825
+#color4     =  #109898
+#color12    =  #109898
+#color5     =  #ba333a
+#color13    =  #ba333a
+#color6     =  #ca262e
+#color14    =  #ca262e
+#color7     =  #948b80
+#color15    =  #948b80
+
+# codeschool custom light
 
 
 # codeschool dark

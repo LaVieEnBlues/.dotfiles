@@ -6,13 +6,13 @@
 	..
 1565121261
 'b
-	/home/meam/bin/
+	/home/blues/bin/
 	..
-1565121261
+1585395906
 'h
-	/home/meam/
+	/home/blues/
 	..
-1565121261
+1585395906
 'j
 	/home/meam/.config/dwm_test/patch
 	dwm-autostart-20161205-bb3bd6f.diff
@@ -38,315 +38,320 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/sys/class/sound/card0
-	device
-2
-d/sys/class/sound/card0/device
-	sound
-7
-d/sys/class/sound/card0/device/sound
-	card0
+d/home/blues/pics/walls/cityscape
+	gta_city.jpg
 1
-d/sys/class/sound/card0/device/sound/card0
-	controlC0
-1
-d/sys/class/sound/card0/device/sound/card0/controlC0
-	device
-1
-d/sys/class/sound/card0/device/sound/card0/controlC0/device
-	..
-0
-d/sys/class/sound/card0/device/sound/card0/controlC0
-	uevent
-5
-d/sys/class/sound/card0/device/sound/card0
-	controlC0
-1
-d/sys/class/sound/card0/device/sound
-	card0
-1
-d/sys/class/sound/card0/device
-	sound
-7
-d/sys/class/sound/card0
-	device
-2
-d/sys/class/sound
-	card0
-1
-d/sys/class
-	sound
-37
-d/sys
-	class
+d/home/blues/pics/walls
+	fantasy
 3
-d/
-	home
-5
-d/home
-	meam
-2
-d/home/meam
-	.config
-4
-d/home/meam/.config
-	st
-24
-d/home/meam/.config/st
-	config.h
-13
-d/home/meam/.config
-	st
-24
-d/home/meam
-	.Xauthority
-29
-d/home
-	meam
-2
-d/
-	dev
+d/home/blues/pics/walls/fantasy
+	link.jpg
 3
-d/dev
-	mapper
-12
-d/dev/mapper
-	..
-0
-d/dev
-	mapper
-12
-d/dev/mapper
-	control
+d/home/blues/pics/walls
+	active
 1
-d/dev
-	mapper
-12
-d/
-	etc
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls/active/current
+	wallpaper
+2
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls/active/current
+	wallpaper
+2
+d/home/blues/pics/walls/active
+	cubes.jpg
+2
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls/active/current
+	triangles.jpg
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls
+	people
+5
+d/home/blues/pics/walls/people
+	girl1.png
+1
+d/home/blues/pics/walls
+	seasons
+6
+d/home/blues/pics
+	walls
+2
+d/home/blues/pics/walls
+	seasons
+6
+d/home/blues/pics/walls/seasons
+	cozy_winter.jpg
+1
+d/home/blues/pics/walls
+	people
+5
+d/home/blues/pics/walls/people
+	girl1.png
+1
+d/home/blues/pics/walls
+	landscape
 4
-d/etc
-	ca-certificates
+d/home/blues/pics/walls/landscape
+	spring_mountain.png
+3
+d/home/blues/pics/walls
+	fantasy
+3
+d/home/blues/pics/walls/fantasy
+	witcher.jpg
+6
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls/active/current
+	wallpaper
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics/walls/active
+	witcher.jpg
+3
+d/home/blues/pics/walls
+	cityscape
+2
+d/home/blues/pics/walls/cityscape
+	gta_city.jpg
+1
+d/home/blues/pics/walls
+	fantasy
+3
+d/home/blues/pics/walls/fantasy
+	witcher.jpg
+6
+d/home/blues/pics/walls
+	landscape
+4
+d/home/blues/pics/walls/landscape
+	mountain_boat.jpg
+1
+d/home/blues/pics/walls
+	people
+5
+d/home/blues/pics/walls/people
+	girl1.png
+1
+d/home/blues/pics/walls
+	seasons
+6
+d/home/blues/pics/walls/seasons
+	cozy_winter.jpg
+1
+d/home/blues/pics/walls
+	fantasy
+3
+d/home/blues/pics/walls/fantasy
+	witcher.jpg
+6
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls/active/current
+	wallpaper
+1
+d/home/blues/pics/walls/active
+	current
+1
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics
+	walls
+2
+d/home/blues
+	faks
 9
-d/
-	srv
-15
-d/srv
-	..
-0
+d/home/blues/faks
+	sa
+7
+d/home/blues
+	.config
+2
+d/home/blues/.config
+	user-dirs.dirs
+34
+d/home/blues/faks/pro/docker
+	ukazi.txt
+3
+d/home/blues/faks/pro
+	gitlabci.zip
+10
+d/home/blues/faks/pro/test
+	gitlabci.zip
+3
+d/home/blues/faks/pro
+	git_hooks
+4
+d/home/blues/faks
+	uvrg
+9
+d/home/blues
+	pics
+9
+d/home/blues/pics
+	walls
+2
+d/home/blues/pics/walls
+	active
+1
+d/home/blues/pics/walls/active
+	link_house.png
+2
+d/home/blues/pics/walls
+	landscape
+4
+d/home/blues/pics
+	walls
+2
+d/home/blues
+	.scripts
+11
+d/home/blues/.scripts
+	klay
+3
+d/home/blues
+	.config
+2
+d/home/blues/.config
+	totem
+28
+d/home/blues/.config/totem
+	state.ini
+1
+d/home/blues/.config
+	polybar
+22
+d/home/blues/.config/polybar
+	config
+2
+d/home/blues/.config
+	polybar
+22
+d/home/blues
+	.config
+2
+d/home
+	blues
+1
 d/
 	usr
-18
+17
 d/usr
-	src
+	lib
+3
+d/usr/lib
+	binfmt.d
 9
-d/
-	sys
-16
-d/sys
-	devices
-5
-d/sys/devices
-	i915
-6
-d/sys
-	module
-10
-d/sys/module
-	thinkpad_acpi
-37
-d/sys/module/thinkpad_acpi
-	parameters
-4
-d/sys/module/thinkpad_acpi/parameters
-	volume_mode
-12
-d/sys/module/thinkpad_acpi
-	parameters
-4
-d/sys/module/thinkpad_acpi/parameters
-	fan_control
-5
-d/sys/module/thinkpad_acpi
-	drivers
-1
-d/sys/module
-	ledtrig_audio
-4
-d/sys/module/ledtrig_audio
-	sections
-3
-d/sys/module/ledtrig_audio/sections
+d/usr/lib/binfmt.d
 	..
 0
-d/sys/module/ledtrig_audio
-	holders
-1
-d/sys/module
-	fb_sys_fops
-4
-d/sys
-	module
-10
-d/
-	home
-5
-d/home/meam
-	mnt
-8
-d/home/meam/mnt
-	DCIM
-5
-d/home/meam/mnt/DCIM
-	Camera
-1
-d/home/meam/mnt/DCIM/Camera
-	20191027_153116.jpg
-37
-d/home/meam/mnt
-	..
-0
-d/home/meam
-	mnt
-8
-d/home/meam/mnt
-	Maturantski ples
-7
-d/home/meam/mnt/Maturantski ples
-	IMG_20170218_220530.jpg
-34
-d/home/meam/mnt
-	System Volume Information
-1
-d/home/meam
-	Downloads
-2
-d/home/meam/Downloads
-	FreeBSD-12.1-RELEASE-i386-memstick.img
-3
-d/home/meam
-	.programs
-14
-d/home/meam/.programs
-	yay
-1
-d/home/meam
-	software
-28
-d/home/meam/software
-	anaconda
-1
-d/home/meam
-	software
-28
-d/home/meam/software
-	ZBRISI_ANACONDA.txt
-2
-d/home/meam
-	.programs
-14
-d/home/meam/.programs
-	dwm
-1
-d/home/meam/.programs/dwm
-	.git
-1
-d/home/meam/.programs
-	st
-2
-d/home/meam/.programs/st
-	.git
-1
-d/home/meam/.programs/st/.git
-	branches
-1
-d/home/meam/.programs/st
-	.git
-1
-d/home/meam/.programs
-	st
-2
-d/home/meam
-	.config
-4
-d/home/meam/.config
-	st
+d/usr/lib
+	python3.8
+36
+d/usr/lib/python3.8
+	site-packages
 24
-d/home/meam
-	.programs
-14
-d/home/meam/.programs
-	dwm
-1
-d/home/meam/.programs/dwm
-	config.def.h.rej
-8
-d/home/meam/.programs
-	st
-2
-d/home/meam/.programs/st
-	patches
-2
-d/home/meam/.programs/st/patches
-	st-xresources-20190105-3be4cf1.diff
-5
-d/home/meam/.programs/st
-	win.h
-22
-d/home/meam/.programs
-	dwm
-1
-d/home/meam/.programs/dwm
-	transient.c
-22
-d/home/meam/.programs
-	dwm
-1
-d/home/meam
-	pics
-27
-d/home/meam/pics
-	screens
-1
-d/home/meam/pics/screens
-	1557061974.png
-1
-d/home/meam/pics
-	screens
-1
-d/home/meam
-	.scripts
-6
-d/home/meam/.scripts
-	JohnTheRipper
-1
-d/home/meam/.scripts/JohnTheRipper
+d/usr/lib/python3.8/site-packages
 	..
 0
-d/home/meam/.scripts
-	vifmrun
+d/usr/lib/python3.8
+	sqlite3
+25
+d/usr/lib
+	python3.8
+36
+d/usr
+	lib
+3
+d/
+	usr
+17
+d/usr
+	lib
+3
+d/
+	tmp
+16
+d/home/blues
+	pics
+22
+d/home/blues/pics
+	screens
+1
+d/home/blues/pics/screens
+	..
+0
+d/home/blues/pics
+	walls
+2
+d/home/blues/pics/walls
+	landscape
 4
-d/home/meam
-	.scripts
+d/home/blues/pics
+	walls
+2
+d/home/blues
+	faks
 7
-d/home/meam/.scripts
-	vifmrun
+d/home/blues/faks
+	pro
 4
-d/home/meam
-	.config
+d/home/blues/faks/pro
+	git_hooks
 4
-d/home/meam/.config
-	yay
-26
+d/home/blues/faks
+	spv
+7
+d/home/blues/faks/spv
+	alen_trstenjak_osebno_porocilo_5_doc.md
+11
 d
 
 # Right window history (oldest to newest):
 D/home/meam/.config
 	..
 0
+D/home
+	..
+0
 D
 
 # Command line history (oldest to newest):
+:mkdir walls
+:mkdir screens
 :hi ( Win ) cterm=none
 :hi (Win) cterm=none
 :hi clear
@@ -370,6 +375,10 @@ D
 :mkdir dwm
 :mkdir st
 :!mkdir
+:cd ~/.config
+:!cp %f ~/pics/walls/active/current/%f && cp %f ~/pics/walls/active/current/wallpaper && xwallpaper --stretch ~/pics/walls/active/current/wallpaper
+:!rm ~/pics/walls/active/current/* && cp %f ~/pics/walls/active/current/%f && cp %f ~/pics/walls/active/current/wallpaper && xwallpaper --stretch ~/pics/walls/active/current/wallpaper
+:s
 :cd
 :q
 
@@ -384,20 +393,25 @@ D
 /compt
 /term
 /termi
-/sess
 /power
 /ima
 /thinkp
 /audi
 /progr
+/light
+/sess
+/.scri
+/pyt
 
 # Prompt history (oldest to newest):
 pnfig
+palen_trstenjak_osebno_porocilo_4_doc.md
+palen_trstenjak_osebno_porocilo_5_doc.md
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/meam/.local/share/vifm/Trash/000_.angular-config.json
+""/home/blues/faks/spv/alen_trstenjak_osebno_porocilo_3_doc.md
 
 # Directory stack (oldest to newest):
 
@@ -532,11 +546,87 @@ t/home/meam/.local/share/vifm/Trash/000_xampp
 	/home/meam/.scripts/xampp
 t/home/meam/.local/share/vifm/Trash/000_.angular-config.json
 	/home/meam/.angular-config.json
+t/home/blues/.local/share/vifm/Trash/000_vifmimg
+	/home/blues/.scripts/vifmimg
+t/home/blues/.local/share/vifm/Trash/000_wall
+	/home/blues/.config/wall
+t/home/blues/.local/share/vifm/Trash/000_1585424220.png
+	/home/blues/pics/screens/1585424220.png
+t/home/blues/.local/share/vifm/Trash/000_1585424260.png
+	/home/blues/pics/screens/1585424260.png
+t/home/blues/.local/share/vifm/Trash/000_1585425920.png
+	/home/blues/pics/screens/1585425920.png
+t/home/blues/.local/share/vifm/Trash/000_1585425923.png
+	/home/blues/pics/screens/1585425923.png
+t/home/blues/.local/share/vifm/Trash/000_1585426163.png
+	/home/blues/pics/screens/1585426163.png
+t/home/blues/.local/share/vifm/Trash/000_1585427610.png
+	/home/blues/pics/screens/1585427610.png
+t/home/blues/.local/share/vifm/Trash/000_1585427705.png
+	/home/blues/pics/screens/1585427705.png
+t/home/blues/.local/share/vifm/Trash/000_1585427741.png
+	/home/blues/pics/screens/1585427741.png
+t/home/blues/.local/share/vifm/Trash/000_1586297116.png
+	/home/blues/pics/screens/1586297116.png
+t/home/blues/.local/share/vifm/Trash/000_1586297131.png
+	/home/blues/pics/screens/1586297131.png
+t/home/blues/.local/share/vifm/Trash/000_1586297221.png
+	/home/blues/pics/screens/1586297221.png
+t/home/blues/.local/share/vifm/Trash/000_1586297461.png
+	/home/blues/pics/screens/1586297461.png
+t/home/blues/.local/share/vifm/Trash/000_1586297476.png
+	/home/blues/pics/screens/1586297476.png
+t/home/blues/.local/share/vifm/Trash/000_1586297560.png
+	/home/blues/pics/screens/1586297560.png
+t/home/blues/.local/share/vifm/Trash/000_1586297564.png
+	/home/blues/pics/screens/1586297564.png
+t/home/blues/.local/share/vifm/Trash/000_1586297610.png
+	/home/blues/pics/screens/1586297610.png
+t/home/blues/.local/share/vifm/Trash/000_bspwm
+	/home/blues/.config/bspwm
+t/home/blues/.local/share/vifm/Trash/000_sxhkd
+	/home/blues/.config/sxhkd
+t/home/blues/.local/share/vifm/Trash/000_1586297656.png
+	/home/blues/pics/screens/1586297656.png
+t/home/blues/.local/share/vifm/Trash/000_1586297934.png
+	/home/blues/pics/screens/1586297934.png
+t/home/blues/.local/share/vifm/Trash/000_1587307031.png
+	/home/blues/pics/screens/1587307031.png
+t/home/blues/.local/share/vifm/Trash/000_1587307147.png
+	/home/blues/pics/screens/1587307147.png
+t/home/blues/.local/share/vifm/Trash/000_1587307149.png
+	/home/blues/pics/screens/1587307149.png
+t/home/blues/.local/share/vifm/Trash/000_1587308385.png
+	/home/blues/pics/screens/1587308385.png
+t/home/blues/.local/share/vifm/Trash/000_1587308423.png
+	/home/blues/pics/screens/1587308423.png
+t/home/blues/.local/share/vifm/Trash/000_triangles.jpg
+	/home/blues/pics/walls/active/triangles.jpg
+t/home/blues/.local/share/vifm/Trash/000_purple_green.png
+	/home/blues/pics/walls/purple_green.png
+t/home/blues/.local/share/vifm/Trash/000_purple_green_earth.jpg
+	/home/blues/pics/walls/purple_green_earth.jpg
+t/home/blues/.local/share/vifm/Trash/000_purple_teal.jpg
+	/home/blues/pics/walls/purple_teal.jpg
+t/home/blues/.local/share/vifm/Trash/000_cubes.jpg
+	/home/blues/pics/walls/active/cubes.jpg
+t/home/blues/.local/share/vifm/Trash/000_forest_hut.jpg
+	/home/blues/pics/walls/active/forest_hut.jpg
+t/home/blues/.local/share/vifm/Trash/000_girl1.png
+	/home/blues/pics/walls/active/girl1.png
+t/home/blues/.local/share/vifm/Trash/000_witcher.jpg
+	/home/blues/pics/walls/active/current/witcher.jpg
+t/home/blues/.local/share/vifm/Trash/001_witcher.jpg
+	/home/blues/pics/walls/active/witcher.jpg
+t/home/blues/.local/share/vifm/Trash/000_spring_mountain.png
+	/home/blues/pics/walls/active/spring_mountain.png
+t/home/blues/.local/share/vifm/Trash/000_gta_city.jpg
+	/home/blues/pics/walls/active/gta_city.jpg
 
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1

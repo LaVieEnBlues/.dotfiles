@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+rm ~/pics/walls/active/current/*
+cp -f $1 ~/pics/walls/active/
+cp $1 ~/pics/walls/active/current/
+cp $1 ~/pics/walls/active/current/wallpaper
+xwallpaper --stretch ~/pics/walls/active/current/wallpaper

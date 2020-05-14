@@ -1,0 +1,41 @@
+#!/usr/bin/env bash
+
+SAVEDIR="~/pics/screens/"
+DELAY=0
+
+while getopts ":snaeh" opt; do
+  case ${opt} in
+    s )
+      maim -u ~/pics/screens/$(date +%s).png -d $DELAY
+      ;;
+    n )
+      maim -u | xclip -selection clipboard -t image/png -d $DELAY
+      ;;
+    a )
+      maim -u -i $(xdotool getactivewindow) ~/pics/screens/$(date +%s).png -d $DELAY
+      ;;
+    e )
+      maim -u -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png -d $DELAY
+      ;;
+    h )
+      echo
+      echo "USAGE: screenshot [-snaeh]"
+      echo
+      echo "OPTIONS:"
+      echo "   -s"
+      echo "         Capture the whole [s]creen, save it to \$SAVEDIR"
+      echo "   -n"
+      echo "         Capture the whole scree[n], save it to the clipboard for quick pasting"
+      echo "   -a"
+      echo "         Capture the [a]ctive window, save it to \$SAVEDIR"
+      echo "   -e"
+      echo "         Capture the activ[e] window, save it to the clipboard for quick pasting"
+      echo "   -h"
+      echo "         Display this message"
+      echo
+      ;;
+    \? )
+      echo "Use the option -h for help"
+      ;;
+  esac
+done

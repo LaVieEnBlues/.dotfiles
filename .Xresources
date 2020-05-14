@@ -6,9 +6,13 @@
 !#include ".config/themes/baskerville_farside.th"
 !#include ".config/themes/baskerville_woods.th"
 !#include ".config/themes/cloud.th"
-#include ".config/themes/codeschool_dark_custom.th"
+#include ".config/themes/gruvbox_light.th"
+!#include ".config/themes/gruvbox_dark.th"
+!#include ".config/themes/codeschool_dark_custom.th"
+!#include ".config/themes/codeschool_dark_purple.th"
 !#include ".config/themes/codeschool_dark.th"
 !#include ".config/themes/codeschool_light.th"
+!#include ".config/themes/codeschool_light_custom.th"
 !#include ".config/themes/darkocean.th"
 !#include ".config/themes/dawn.th"
 !#include ".config/themes/matrix.th"
@@ -32,18 +36,18 @@ st.termname:   st-256color
 st.shell:      /bin/bash
 st.opacity:    255
 
-st.font:       xft:Fixedsys Excelsior:style=Regular:size=12:antialias=false
+st.font:       xft:Fixedsys Excelsior:style=Regular:size=11:antialias=true
 st.bold_font:  0
-st.cwscale:    0.8
+st.cwscale:    1.0
 st.chscale:    1.0
 st.internalBorder : 55
 
-dwm.normbordercolor: #00ff00
-dwm.normbgcolor: #333351
-dwm.normfgcolor: #22a4ac
-dwm.selbordercolor: #22a4ac
-dwm.selbgcolor: #262634
-dwm.selfgcolor: #bbbbbb
+dwm.normbordercolor: #af61f4
+dwm.normbgcolor: #271f36
+dwm.normfgcolor: #af61f4
+dwm.selbordercolor: #10cf29
+dwm.selbgcolor: #af61f4
+dwm.selfgcolor: #271f36
 
 rofi.font: hack 10
 

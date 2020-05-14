@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+while getopts ":suh" opt;
+do
+   case ${opt} in
+      s )
+         echo "Changing keyboard layout to SI..."
+         localectl set-x11-keymap si
+         ;;
+      u )
+         echo "Changing keyboard layout to US..."
+         localectl set-x11-keymap us
+         ;;
+      h )
+         echo
+         echo "USAGE: klay [-suh]"
+         echo
+         echo "OPTIONS:"
+         echo "   -s"
+         echo "      Set the keyboard layout to SI"
+         echo "   -u"
+         echo "      Set the keyboard layout to US"
+         echo "   -h"
+         echo "      Display this message"
+         echo
+         ;;
+      \? )
+         echo "Use the option -h for help" 
+         ;;
+   esac
+done

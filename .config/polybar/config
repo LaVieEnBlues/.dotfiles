@@ -26,12 +26,12 @@
 
 
 [colors]
-background = ${xrdb:background}
+background = ${xrdb:color12}
 ;background = ${xrdb:backgroundAlt}
 ;background-alt = ${xrdb:background}
 background-alt = ${xrdb:backgroundAlt}
 
-foreground = ${xrdb:foreground}
+foreground = ${xrdb:color0}
 ;foreground = ${xrdb:backgroundAlt}
 ;foreground-alt = ${xrdb:background}
 foreground-alt = ${xrdb:foregroundAlt}
@@ -66,8 +66,8 @@ offset-y = 0
 radius = 0.0
 fixed-center = true
 
-background = ${colors.background-alt}
-foreground = ${colors.foreground-alt}
+background = ${colors.background}
+foreground = ${colors.foreground}
 
 line-size = 2
 line-color = ${colors.foreground-alt}
@@ -82,7 +82,7 @@ module-margin-left = 0
 module-margin-right = 0
 
 ; text
-font-0 = "ProggyCleanTT:style=Regular:size=11:antialias=false;4"
+font-0 = "Fixedsys Excelsior:style=Regular:size=10:antialias=true;3"
 
 ; arrows
 font-1 = "Droid Sans Mono for Powerline:size=12:antialias=true;3"
@@ -94,9 +94,9 @@ font-3 = "FontAwesome5Brands:style=Solid:pixelsize=11:antialias=false;2"
 ; smaller font for xwindow
 font-4 = "ProggyCleanTT:style=Regular:size=6:antialias=true;2"
 
-modules-left = bspwm
+modules-left = i3
 modules-center =
-modules-right = wlan lev sep eth sep battery sep brightness sep volume sep date
+modules-right = memory sep cpu sep wlan sep eth sep battery sep brightness sep volume sep date
 
 wm-restack = i3
 scroll-up = i3wm-wsnext
@@ -154,11 +154,11 @@ separator =
 
 [module/sep]
 type = custom/text
-content = " "
+content = "  "
 content-foreground = ${colors.background}
 content-background = ${colors.background}
 content-underline = ${colors.background}
-content-overline = ${colors.background}
+#content-overline = ${colors.background}
 
 
 [module/xwindow]
@@ -198,7 +198,7 @@ label-focused = %name%
 label-focused-foreground = ${colors.foreground}
 label-focused-background = ${colors.background}
 label-focused-padding = 1
-label-focused-overline = ${colors.color3}
+#label-focused-overline = ${colors.color3}
 
 label-occupied = %name%
 label-occupied-padding = 1
@@ -221,13 +221,13 @@ label-focused = %name%
 label-focused-foreground = ${colors.foreground}
 label-focused-background = ${colors.background}
 label-focused-padding = 1
-label-focused-overline = ${colors.color3}
+#label-focused-overline = ${colors.color3}
 
 label-unfocused = %name%
 label-unfocused-foreground = ${colors.foreground}
 label-unfocused-background = ${colors.background}
 label-unfocused-padding = 1
-label-unfocused-overline = ${colors.color3}
+#label-unfocused-overline = ${colors.color3}
 
 label-occupied = %name%
 label-occupied-padding = 1
@@ -256,28 +256,28 @@ enable-scroll = false
 fuzzy-match = true
 
 ; ws-icon-[0-9] = label;icon name
-ws-icon-0 = 0;1010
-ws-icon-1 = 1;0001
-ws-icon-2 = 2;0010
-ws-icon-3 = 3;0011
-ws-icon-4 = 4;0100
-ws-icon-5 = 5;0101
-ws-icon-6 = 6;0110
-ws-icon-7 = 7;0111
-ws-icon-8 = 8;1000
-ws-icon-9 = 9;1001 
+ws-icon-0 = 0;000
+ws-icon-1 = 1;001
+ws-icon-2 = 2;010
+ws-icon-3 = 3;011
+ws-icon-4 = 4;100
+ws-icon-5 = 5;101
+ws-icon-6 = 6;110
+ws-icon-7 = 7;111
+ws-icon-8 = 8
+ws-icon-9 = 9 
 
 format = <label-state> <label-mode>
 
 label-mode = %mode%
 label-mode-padding = 1
-label-mode-foreground = ${colors.background-alt}
-label-mode-background = ${colors.foreground-alt}
+label-mode-foreground = ${colors.background}
+label-mode-background = ${colors.foreground}
 
 ; focused = Active workspace on focused monitor
 label-focused = %icon%
-label-focused-foreground = ${colors.background-alt}
-label-focused-background = ${colors.foreground-alt}
+label-focused-foreground = ${colors.background}
+label-focused-background = ${colors.foreground}
 label-focused-padding = 1
 
 ; unfocused = Inactive workspace on any monitor
@@ -316,13 +316,13 @@ type = internal/backlight
 card = intel_backlight
 
 format = <label>
-format-background = ${colors.color2}
-format-foreground = ${colors.background}
-format-overline = ${colors.color2}
-format-prefix = "  "
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+#format-overline = ${colors.color2}
+format-prefix = " "
 
-label = " %percentage% "
-label-overline = ${colors.color2}
+label = "%percentage%"
+#label-overline = ${colors.color2}
 label-background = ${colors.background}
 label-foreground = ${colors.foreground}
 
@@ -420,16 +420,16 @@ content-background = ${colors.color5}
 type = internal/cpu
 interval = 2
 
-label = " %{T3}%{T-} %percentage:2%"
-label-foreground = ${colors.color6}
+label = "%{T3}%{T-} %percentage%"
+label-foreground = ${colors.foreground}
 label-background = ${colors.background}
 
 [module/memory]
 type = internal/memory
 interval = 2
 
-label = " %{T3}%{T-} %percentage_used:2%"
-label-foreground = ${colors.color6}
+label = "%{T3}%{T-} %percentage_used%"
+label-foreground = ${colors.foreground}
 label-background = ${colors.background}
 
 [module/wlan]
@@ -438,24 +438,24 @@ interface = wlp3s0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>
-format-connected-background = ${colors.color2}
-format-connected-foreground = ${colors.background}
-format-connected-overline = ${colors.color2}
-format-connected-prefix = "%{T5} %{T-}"
+format-connected-background = ${colors.background}
+format-connected-foreground = ${colors.foreground}
+##format-connected-overline = ${colors.color2}
+format-connected-prefix = "%{T5}%{T-}"
 
-label-connected = " %essid:0:8:..% "
-label-connected-overline = ${colors.color2}
+label-connected = "%essid:0:8:..%"
+#label-connected-overline = ${colors.color2}
 label-connected-background = ${colors.background}
 label-connected-foreground = ${colors.foreground}
 
 format-disconnected = <label-disconnected>
-format-disconnected-background = ${colors.color2}
-format-disconnected-foreground = ${colors.background}
-format-disconnected-overline = ${colors.color2}
-format-disconnected-prefix = "%{T5}  %{T-}"
+format-disconnected-background = ${colors.background}
+format-disconnected-foreground = ${colors.foreground}
+#format-disconnected-overline = ${colors.color2}
+format-disconnected-prefix = "%{T5}%{T-} "
 
-label-disconnected = " no wlan "
-label-disconnected-overline = ${colors.color2}
+label-disconnected = "N/A"
+#label-disconnected-overline = ${colors.color2}
 label-disconnected-background = ${colors.background}
 label-disconnected-foreground = ${colors.foreground}
 
@@ -476,20 +476,24 @@ interval = 3.0
 format-connected = <label-connected>
 format-connected-background = ${colors.color2}
 format-connected-foreground = ${colors.background}
-format-connected-prefix = "%{T5}  %{T-}"
-label-connected = " %local_ip% "
+#format-connected-overline = ${colors.color2}
+format-connected-prefix = "%{T5}  %{T-}"
+
+label-connected = "%local_ip%"
 label-connected-background = ${colors.background}
 label-connected-foreground = ${colors.foreground}
-label-connected-overline = ${colors.color2}
+#label-connected-overline = ${colors.color2}
 
 format-disconnected = <label-disconnected>
-format-disconnected-background = ${colors.color2}
-format-disconnected-foreground = ${colors.background}
-format-disconnected-prefix = "%{T5}  %{T-}"
-label-disconnected = " no eth "
+format-disconnected-background = ${colors.background}
+format-disconnected-foreground = ${colors.foreground}
+#format-disconnected-overline = ${colors.color2}
+format-disconnected-prefix = "%{T5}  %{T-}"
+
+label-disconnected = "N/A"
 label-disconnected-background = ${colors.background}
 label-disconnected-foreground = ${colors.foreground}
-label-disconnected-overline = ${colors.color2}
+#label-disconnected-overline = ${colors.color2}
 
 ;            禮醴隸惡料蓼遼龍暈阮崙淪率隆
 
@@ -499,23 +503,24 @@ interval = 1
 
 date = "%d/%m/%Y"
 
-time = "%H:%M:%S"
+time = "%H:%M"
 
 format = <label>
-format-background = ${colors.color2}
-format-foreground = ${colors.background}
-format-prefix = "  "
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+#format-overline = ${colors.color2}
+format-prefix = " "
 
-label = " %date% %time% "
+label = "%date% %time%"
 label-background = ${colors.background}
 label-foreground = ${colors.foreground}
-label-overline = ${colors.color2}
+#label-overline = ${colors.color2}
 
 [module/pulseaudio]
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = " "
+label-volume = ""
 label-volume-foreground = ${colors.foreground}
 
 label-muted = 🔇 muted
@@ -578,31 +583,37 @@ adapter = AC
 full-at = 99
 
 format-full = <ramp-capacity> <label-full>
-format-full-prefix = " "
-format-full-foreground = ${colors.background}
-format-full-background = ${colors.color2}
-label-full = " 00"
+format-full-prefix =
+format-full-foreground = ${colors.foreground}
+format-full-background = ${colors.background}
+#format-full-overline = ${colors.color2}
+
+label-full = "00"
 label-full-background = ${colors.background}
 label-full-foreground = ${colors.foreground}
-label-full-overline = ${colors.color2}
+#label-full-overline = ${colors.color2}
 
 format-charging = <animation-charging> <label-charging>
-format-charging-prefix = " "
-format-charging-foreground = ${colors.background}
-format-charging-background = ${colors.color2}
-label-charging = " %percentage% "
+format-charging-prefix =
+format-charging-foreground = ${colors.foreground}
+format-charging-background = ${colors.background}
+#format-charging-overline = ${colors.color2}
+
+label-charging = "%percentage%"
 label-charging-background = ${colors.background}
 label-charging-foreground = ${colors.foreground}
-label-charging-overline = ${colors.color2}
+#label-charging-overline = ${colors.color2}
 
 format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-prefix = " "
-format-discharging-foreground = ${colors.background}
-format-discharging-background = ${colors.color2}
-label-discharging = " %percentage% "
+format-discharging-prefix =
+format-discharging-foreground = ${colors.foreground}
+format-discharging-background = ${colors.background}
+#format-discharging-overline = ${colors.color2}
+
+label-discharging = "%percentage%"
 label-discharging-background = ${colors.background}
 label-discharging-foreground = ${colors.foreground}
-label-discharging-overline = ${colors.color2}
+#label-discharging-overline = ${colors.color2}
 
 ;      
 ramp-capacity-0 = 
@@ -622,29 +633,29 @@ animation-charging-framerate = 750
 type = internal/volume
 
 format-volume = <ramp-volume> <label-volume>
-format-volume-foreground = ${colors.background}
-format-volume-background = ${colors.color2}
-format-volume-overline = ${colors.color2}
+format-volume-foreground = ${colors.foreground}
+format-volume-background = ${colors.background}
+#format-volume-overline = ${colors.color2}
 
-label-volume = " %percentage% "
+label-volume = "%percentage%"
 label-volume-background = ${colors.background}
 label-volume-foreground = ${colors.foreground}
 
 format-muted = <label-muted>
-format-muted-foreground = ${colors.background}
-format-muted-background = ${colors.color2}
-format-muted-overline = ${colors.color2}
-format-muted-prefix = "  "
+format-muted-foreground = ${colors.foreground}
+format-muted-background = ${colors.background}
+#format-muted-overline = ${colors.color2}
+format-muted-prefix = " "
 
-label-muted = "  "
+label-muted = ""
 label-muted-foreground = ${colors.foreground}
 label-muted-background = ${colors.background}
 
-ramp-volume-0 = " "
-ramp-volume-1 = " "
-ramp-volume-2 = " "
-ramp-volume-3 = " "
-ramp-volume-4 = " "
+ramp-volume-0 = ""
+ramp-volume-1 = ""
+ramp-volume-2 = ""
+ramp-volume-3 = ""
+ramp-volume-4 = ""
 
 [module/temperature]
 type = internal/temperature

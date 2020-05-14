@@ -179,7 +179,19 @@ command! reload :write | restart
 
 " Pdf
 filextype *.pdf zathura %c %i &, apvlv %c, xpdf %c
-fileviewer *.pdf pdftotext -nopgbrk %c -
+" fileviewer *.pdf pdftotext -nopgbrk %c -
+
+" UEBERZUG PDF PREVIEW
+fileviewer *.pdf
+        \ vifmimg pdfpreview %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
+
+" UEBERZUG EPUB PREVIEW
+"fileviewer *.epub
+"        \ vifmimg epubpreview %px %py %pw %ph %c
+"        \ %pc
+"        \ vifmimg clear
 
 " PostScript
 filextype *.ps,*.eps,*.ps.gz
@@ -214,10 +226,23 @@ filextype *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
         \ dragon %f:p,
         \ {View using mplayer}
         \ mplayer %f,
+"fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
+"          \*.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx,
+"          \*.as[fx]
+"         \ ffprobe -pretty %c 2>&1
+
+" UEBERZUG VIDEO PREVIEW
 fileviewer *.avi,*.mp4,*.wmv,*.dat,*.3gp,*.ogv,*.mkv,*.mpg,*.mpeg,*.vob,
-          \*.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx,
-          \*.as[fx]
-         \ ffprobe -pretty %c 2>&1
+        \*.fl[icv],*.m2v,*.mov,*.webm,*.ts,*.mts,*.m4v,*.r[am],*.qt,*.divx,
+        \ vifmimg videopreview %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
+
+" UEBERZUG AUDIO PREVIEW
+fileviewer <audio/*>
+        \ vifmimg audio %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
 
 " Web
 filextype *.html,*.htm
@@ -244,8 +269,26 @@ filextype *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
         \ gpicview %c,
         \ {View in shotwell}
         \ shotwell,
-fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
-         \ convert -identify %f -verbose /dev/null
+"fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm
+"         \ convert -identify %f -verbose /dev/null
+
+" UEBERZUG IMAGE PREVIEW
+fileviewer *.bmp,*.jpg,*.jpeg,*.png,*.xpm
+        \ vifmimg draw %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
+
+" UEBERZUG GIF PREVIEW
+fileviewer *.gif
+        \ vifmimg gifpreview %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
+
+" UEBERZUG ICON PREVIEW
+fileviewer *.ico
+        \ vifmimg magickpreview %px %py %pw %ph %c
+        \ %pc
+        \ vifmimg clear
 
 " OpenRaster
 filextype *.ora
@@ -375,10 +418,10 @@ filextype */
 "         \ %pc
 "         \ ~/.config/vifm/scripts/imgc %px %py %pw %ph
 
-fileviewer *.jpg,*.jpeg,*.png
-           \ vifmimg draw %px %py %pw %ph %c
-           \ %pc
-           \ vifmimg clear
+"fileviewer *.jpg,*.jpeg,*.png
+"           \ vifmimg draw %px %py %pw %ph %c
+"           \ %pc
+"           \ vifmimg clear
 
 " Open all other files with default system programs (you can also remove all
 " :file[x]type commands above to ensure they don't interfere with system-wide
@@ -491,7 +534,7 @@ nnoremap <f6> :move<cr>
 nnoremap <f7> :mkdir<space>
 nnoremap <f8> :delete<cr>
 
-nnoremap bg :!feh --bg-scale %f<cr>
+nnoremap bg :!~/.scripts/awp %c<cr>
 " ------------------------------------------------------------------------------
 
 " Various customization examples
@@ -523,3 +566,7 @@ nnoremap bg :!feh --bg-scale %f<cr>
 hi Directory cterm=none
 hi CurrLine cterm=standout
 hi Executable cterm=none
+
+" UEBERZUG PDF PREVIEW SCROLLING
+map > :!vifmimg inc<CR>
+map < :!vifmimg dec<CR>
